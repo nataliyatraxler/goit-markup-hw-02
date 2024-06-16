@@ -28,6 +28,10 @@ header {
     background-color: var(--header-bg-color);
 }
 
+.portfolio {
+    padding: 20px;
+}
+
 .portfolio ul {
     list-style: none;
     padding: 0;
