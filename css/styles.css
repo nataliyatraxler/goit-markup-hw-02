@@ -154,9 +154,12 @@ ul {
 
 .portfolio-title {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.11;
     color: #2e2f42;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -181,7 +184,8 @@ ul {
 
 .portfolio-project-title {
     font-size: 20px;
-    font-weight: 700;
+    line-height: 1.2;
+    font-weight: 500;
     color: #2e2f42;
 }
 
