@@ -1,89 +1,265 @@
+/* General styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
     color: #434455;
+    background-color: #FFFFFF;
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #434455;
-    font-weight: 500;
-}
-
-.portfolio {
-    padding: 20px;
-}
-
-.portfolio__title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.portfolio__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.portfolio__item {
-    list-style: none;
-    width: 360px;
-}
-
-.portfolio__link {
+a {
     text-decoration: none;
     color: inherit;
 }
 
-.portfolio__img {
-    display: block;
-    width: 100%;
-    height: auto;
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-.portfolio__text-container {
-    padding: 10px;
-    text-align: center;
+/* Header styles */
+.header {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
 }
 
-.portfolio__project-title {
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    font-size: 24px;
+    font-weight: 700;
 }
 
-.portfolio__project-category {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.logo-color {
+    color: #4d5ae5;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
     color: #434455;
 }
 
-footer {
-    background-color: #2e2f42;
+.address {
+    margin-top: 10px;
+}
+
+.address-list {
+    display: flex;
+    gap: 10px;
+}
+
+.address-item {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.address-link {
+    color: #434455;
+}
+
+/* Intro styles */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4fd;
+}
+
+.intro-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
     color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.intro-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.intro-button:hover {
+    background-color: #404bbf;
+}
+
+/* Services styles */
+.services {
+    padding: 40px 20px;
+}
+
+.services-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 30px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.services-item {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #f4f4fd;
     padding: 20px;
+    border-radius: 5px;
+}
+
+.services-item-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2e2f42;
+    margin-bottom: 10px;
+}
+
+.services-item-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+/* Team styles */
+.team {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 30px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-item {
+    flex: 1 1 calc(25% - 20px);
     text-align: center;
 }
 
-.footer__logo,
-.footer__description {
-    margin: 5px 0;
+.team-img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2e2f42;
+    margin-bottom: 5px;
+}
+
+.team-role {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+/* Portfolio styles */
+.portfolio {
+    padding: 40px 20px;
+    background-color: #f4f4fd;
+}
+
+.portfolio-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 30px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-item {
+    flex: 1 1 calc(33.33% - 20px);
+}
+
+.portfolio-link {
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.portfolio-link:hover {
+    transform: translateY(-10px);
+}
+
+.portfolio-img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.portfolio-text-container {
+    text-align: center;
+}
+
+.portfolio-project-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2e2f42;
+    margin-bottom: 5px;
+}
+
+.portfolio-project-category {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+/* Footer styles */
+.footer {
+    padding: 20px;
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #434455;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
 }
