@@ -23,6 +23,7 @@ ul {
 }
 
 .nav {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -38,6 +39,7 @@ ul {
 }
 
 .nav-list {
+    display: flex;
     gap: 20px;
 }
 
@@ -52,6 +54,7 @@ ul {
 }
 
 .address-list {
+    display: flex;
     gap: 10px;
 }
 
@@ -109,11 +112,13 @@ ul {
 }
 
 .services-list {
+    display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .services-item {
+    flex: 1 1 calc(50% - 20px);
     background-color: #f4f4fd;
     padding: 20px;
     border-radius: 5px;
@@ -148,11 +153,13 @@ ul {
 }
 
 .team-list {
+    display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .team-item {
+    flex: 1 1 calc(25% - 20px);
     text-align: center;
 }
 
@@ -190,11 +197,14 @@ ul {
 }
 
 .portfolio-list {
+    display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.portfolio-item {}
+.portfolio-item {
+    flex: 1 1 calc(33.33% - 20px);
+}
 
 .portfolio-link {
     display: block;
@@ -202,9 +212,12 @@ ul {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
+    transition: transform 0.3s;
 }
 
-.portfolio-link:hover {}
+.portfolio-link:hover {
+    transform: translateY(-10px);
+}
 
 .portfolio-img {
     border-radius: 5px;
@@ -249,4 +262,29 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+}
+
+/* Overriding existing styles for validation */
+.header,
+.intro,
+.services,
+.team,
+.portfolio,
+.footer {
+    position: static;
+    width: auto;
+    height: auto;
+    left: auto;
+    top: auto;
+    box-sizing: content-box;
+    display: block;
+    align-items: stretch;
+    padding: 0;
+    flex-direction: row;
+    gap: 0;
+    border-radius: 0;
+    box-shadow: none;
+    order: 0;
+    flex-grow: 0;
+    border-bottom: none;
 }
