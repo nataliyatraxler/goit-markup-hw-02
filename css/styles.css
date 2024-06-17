@@ -14,7 +14,58 @@ ul {
     list-style: none;
 }
 
-/* Header styles */
+.header {
+    background-color: #FFFFFF;
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-color {
+    color: #4d5ae5;
+}
+
+.nav-link {
+    font-size: 16px;
+    /* Updated font size */
+    line-height: 1.5;
+    /* Updated line height */
+    letter-spacing: 0.02em;
+    /* Updated letter spacing */
+    color: #2e2f42;
+    /* Updated text color */
+    font-weight: 400;
+    /* Assuming regular weight for links unless specified otherwise */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+    /* Color changes on hover and focus */
+}
+
+/* It's good practice to specify styles for both states if they should visually indicate interactivity */
+
+
+
+
+
+
+
+
+
+
 .header {
     background-color: #FFFFFF;
 
