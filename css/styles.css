@@ -263,28 +263,3 @@ ul {
     line-height: 1.5;
     color: #434455;
 }
-
-/* Overriding existing styles for validation */
-.header,
-.intro,
-.services,
-.team,
-.portfolio,
-.footer {
-    position: static;
-    width: auto;
-    height: auto;
-    left: auto;
-    top: auto;
-    box-sizing: content-box;
-    display: block;
-    align-items: stretch;
-    padding: 0;
-    flex-direction: row;
-    gap: 0;
-    border-radius: 0;
-    box-shadow: none;
-    order: 0;
-    flex-grow: 0;
-    border-bottom: none;
-}
