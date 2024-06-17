@@ -57,10 +57,6 @@ ul {
     margin-top: 10px;
 }
 
-.address-list {
-    display: flex;
-}
-
 .address-item {
     font-size: 16px;
     line-height: 1.5;
