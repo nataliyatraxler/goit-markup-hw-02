@@ -30,11 +30,17 @@ ul {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
+    /* Додано */
     font-weight: 700;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+    line-height: 1.17;
+    /* Додано */
+    letter-spacing: 0.03em;
+    /* Додано */
+    text-transform: uppercase;
+    /* Додано */
+    color: #4d5ae5;
+    /* Додано */
 }
 
 .logo-color {
@@ -127,11 +133,21 @@ ul {
     border-radius: 5px;
 }
 
-.services-item-title {
+.services-item-title,
+.team-name,
+.portfolio-project-title {
     font-size: 24px;
     font-weight: 700;
     color: #2e2f42;
     margin-bottom: 10px;
+}
+
+.services-item-description,
+.team-role,
+.portfolio-project-category {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
 }
 
 .services-item-description {
@@ -262,24 +278,6 @@ ul {
 }
 
 .footer-description {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-}
-
-/* Additional styles for the fourth section */
-.portfolio-item img {
-    width: 360px;
-}
-
-.portfolio-item h3 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    color: #2e2f42;
-}
-
-.portfolio-item p {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
