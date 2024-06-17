@@ -30,8 +30,17 @@ ul {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
+    /* Додано */
     font-weight: 700;
+    line-height: 1.17;
+    /* Додано */
+    letter-spacing: 0.03em;
+    /* Додано */
+    text-transform: uppercase;
+    /* Додано */
+    color: #4d5ae5;
+    /* Додано */
 }
 
 .logo-color {
@@ -78,7 +87,7 @@ ul {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    color: #ffffff;
+    color: #2e2f42;
     margin-bottom: 20px;
 }
 
@@ -87,8 +96,8 @@ ul {
     font-size: 16px;
     font-weight: 500;
     padding: 10px 20px;
-    color: #ffffff;
     background-color: #4d5ae5;
+    color: #ffffff;
     border: none;
     cursor: pointer;
 }
@@ -97,21 +106,17 @@ ul {
     background-color: #404bbf;
 }
 
-.intro-button:focus {
-    background-color: #404bbf;
-    outline: none;
-}
-
 /* Services styles */
 .services {
     padding: 40px 20px;
-    background-color: #FFFFFF;
 }
 
 .services-title {
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.11;
     text-align: center;
+    color: #2e2f42;
     margin-bottom: 30px;
 }
 
@@ -119,38 +124,50 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
 }
 
 .services-item {
-    width: 240px;
-    padding: 20px;
+    flex: 1 1 calc(50% - 20px);
     background-color: #f4f4fd;
-    border-radius: 8px;
-    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
 }
 
-.services-item-title {
-    font-size: 20px;
+.services-item-title,
+.team-name,
+.portfolio-project-title {
+    font-size: 24px;
     font-weight: 700;
+    color: #2e2f42;
     margin-bottom: 10px;
+}
+
+.services-item-description,
+.team-role,
+.portfolio-project-category {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
 }
 
 .services-item-description {
     font-size: 16px;
     line-height: 1.5;
+    color: #434455;
 }
 
 /* Team styles */
 .team {
     padding: 40px 20px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 .team-title {
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.11;
     text-align: center;
+    color: #2e2f42;
     margin-bottom: 30px;
 }
 
@@ -158,29 +175,28 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
 }
 
 .team-item {
-    width: 264px;
+    flex: 1 1 calc(25% - 20px);
     text-align: center;
 }
 
 .team-img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+    border-radius: 50%;
     margin-bottom: 10px;
 }
 
 .team-name {
     font-size: 20px;
     font-weight: 700;
+    color: #2e2f42;
     margin-bottom: 5px;
 }
 
 .team-role {
     font-size: 16px;
+    line-height: 1.5;
     color: #434455;
 }
 
@@ -193,7 +209,9 @@ ul {
 .portfolio-title {
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.11;
     text-align: center;
+    color: #2e2f42;
     margin-bottom: 30px;
 }
 
@@ -201,47 +219,52 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
 }
 
 .portfolio-item {
-    width: 320px;
+    flex: 1 1 calc(33.33% - 20px);
 }
 
 .portfolio-link {
     display: block;
     text-align: center;
-    background-color: #FFFFFF;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.portfolio-link:hover {
+    transform: translateY(-10px);
 }
 
 .portfolio-img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+    border-radius: 5px;
     margin-bottom: 10px;
 }
 
 .portfolio-text-container {
-    text-align: left;
+    text-align: center;
 }
 
 .portfolio-project-title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
+    color: #2e2f42;
+    margin-bottom: 5px;
 }
 
 .portfolio-project-category {
-    font-size: 14px;
-    color: #4d5ae5;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
 }
 
 /* Footer styles */
 .footer {
-    background-color: #f4f4fd;
     padding: 20px;
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
     text-align: center;
 }
 
@@ -249,7 +272,7 @@ ul {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 700;
-    color: #4d5ae5;
+    color: #434455;
     margin-bottom: 10px;
     display: block;
 }
