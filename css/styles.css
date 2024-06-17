@@ -85,7 +85,6 @@ ul {
     font-weight: 500;
     background-color: #4d5ae5;
     color: #ffffff;
-    border: none;
     cursor: pointer;
 }
 
@@ -103,13 +102,9 @@ ul {
     color: #2e2f42;
 }
 
-.services-list {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .services-item {
-    flex: 1 1 calc(50% - 20px);
+    
     background-color: #f4f4fd;
 }
 
@@ -150,14 +145,6 @@ ul {
     color: #2e2f42;
 }
 
-.team-list {
-    flex-wrap: wrap;
-}
-
-.team-item {
-    flex: 1 1 calc(25% - 20px);
-    text-align: center;
-}
 
 .team-name {
     font-size: 20px;
@@ -180,7 +167,6 @@ ul {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    text-align: center;
     color: #2e2f42;
 }
 
@@ -193,7 +179,6 @@ ul {
 }
 
 .portfolio-link {
-    text-align: center;
     background-color: #ffffff;
 }
 
@@ -205,9 +190,7 @@ ul {
     margin-bottom: 10px;
 }
 
-.portfolio-text-container {
-    text-align: center;
-}
+
 
 .portfolio-project-title {
     font-size: 20px;
@@ -224,7 +207,7 @@ ul {
 /* Footer styles */
 .footer {
     background-color: #ffffff;
-    text-align: center;
+    
 }
 
 .footer-logo {
