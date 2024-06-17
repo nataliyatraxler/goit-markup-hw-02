@@ -89,7 +89,9 @@ ul {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    color: #2e2f42;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
 .intro-button {
@@ -97,19 +99,23 @@ ul {
     font-size: 16px;
     font-weight: 500;
     background-color: #4d5ae5;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
 }
 
-.intro-button:hover {
+.intro-button:hover,
+.intro-button:focus {
     background-color: #404bbf;
 }
 
 /* Services styles */
 .services-title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -130,12 +136,13 @@ ul {
 .portfolio-project-category {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
 /* Team styles */
 .team {
-    background-color: #ffffff;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -143,18 +150,23 @@ ul {
     font-weight: 700;
     line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
 .team-name {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
 .team-role {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
