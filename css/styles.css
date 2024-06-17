@@ -82,7 +82,7 @@ ul {
 
 /* Intro styles */
 .intro {
-    background-color: #f4f4fd;
+    background-color: #2e2f42;
 }
 
 .intro-title {
@@ -161,6 +161,9 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.team-list {
+    color: #FFFFFF;
 }
 
 .team-role {
