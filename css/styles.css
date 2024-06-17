@@ -21,6 +21,7 @@ ul {
 
 .nav {
     justify-content: space-between;
+    color: #2e2f42;
 }
 
 .logo {
@@ -46,7 +47,7 @@ ul {
     /* Updated letter spacing */
     color: #2e2f42;
     /* Updated text color */
-    font-weight: 400;
+    font-weight: 500;
     /* Assuming regular weight for links unless specified otherwise */
 }
 
@@ -58,15 +59,25 @@ ul {
 
 .address {
     margin-top: 10px;
+    font-style: normal;
 }
 
 .address-item {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .address-link {
     color: #434455;
+}
+
+
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+    /* Color changes on hover and focus */
 }
 
 /* Intro styles */
