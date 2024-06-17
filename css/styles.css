@@ -23,7 +23,6 @@ ul {
 }
 
 .nav {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -39,7 +38,6 @@ ul {
 }
 
 .nav-list {
-    display: flex;
     gap: 20px;
 }
 
@@ -54,7 +52,6 @@ ul {
 }
 
 .address-list {
-    display: flex;
     gap: 10px;
 }
 
@@ -112,13 +109,11 @@ ul {
 }
 
 .services-list {
-    display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .services-item {
-    flex: 1 1 calc(50% - 20px);
     background-color: #f4f4fd;
     padding: 20px;
     border-radius: 5px;
@@ -153,13 +148,11 @@ ul {
 }
 
 .team-list {
-    display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .team-item {
-    flex: 1 1 calc(25% - 20px);
     text-align: center;
 }
 
@@ -197,14 +190,11 @@ ul {
 }
 
 .portfolio-list {
-    display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.portfolio-item {
-    flex: 1 1 calc(33.33% - 20px);
-}
+.portfolio-item {}
 
 .portfolio-link {
     display: block;
@@ -212,12 +202,9 @@ ul {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
-    transition: transform 0.3s;
 }
 
-.portfolio-link:hover {
-    transform: translateY(-10px);
-}
+.portfolio-link:hover {}
 
 .portfolio-img {
     border-radius: 5px;
@@ -262,53 +249,4 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
-}
-
-/* Third section styles (example) */
-.third-section {
-    background-color: #F4F4FD;
-}
-
-.third-section-title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.third-section-list {
-    background-color: #FFFFFF;
-}
-
-.third-section-item {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.third-section-item p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* Footer adjustments */
-.footer-logo span {
-    color: #f4f4fd;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-}
-
-.footer-description {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #f4f4fd;
-    letter-spacing: 0.02em;
 }
