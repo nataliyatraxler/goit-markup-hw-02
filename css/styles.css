@@ -211,9 +211,13 @@ ul {
     color: #4d5ae5;
 
 }
+.logo-color {
+    color: #f4f4fd;
+}
 
 .footer-description {
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
